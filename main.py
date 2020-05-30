@@ -33,17 +33,5 @@ if __name__ == "__main__":
         data = image.load() # Loads the image
         isCollide(data)
             
-        
-        '''
-        for i in range(275, 325):
-            for j in range(563, 650):
-                data[i, j] = 0
-        
-        for i in range(250, 300):
-            for j in range(410, 563):
-                data[i, j] = 171
-
-        image.show()
-        break
-      '''
+ 
 
