@@ -32,6 +32,3 @@ if __name__ == "__main__":
         image = ImageGrab.grab().convert('L')  # Convert into greyscale image
         data = image.load() # Loads the image
         isCollide(data)
-            
- 
-
