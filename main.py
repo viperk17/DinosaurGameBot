@@ -8,6 +8,7 @@ def hit(key):
     return
 
 def isCollide(data):
+    
     # Drawing the rectangle to dodge the birds
     for i in range(300, 415):
         for j in range(410, 563):
@@ -21,7 +22,7 @@ def isCollide(data):
             if data[i, j] < 100:
                 hit("up")
                 return
-    return
+    return  # returns nothing
 
 if __name__ == "__main__":
     print("Hey... Dinosaur game is about to start in 3 seconds")
@@ -32,3 +33,4 @@ if __name__ == "__main__":
         image = ImageGrab.grab().convert('L')  # Convert into greyscale image
         data = image.load() # Loads the image
         isCollide(data)
+        
