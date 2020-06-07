@@ -8,7 +8,6 @@ def hit(key):
     return
 
 def isCollide(data):
-    
     # Drawing the rectangle to dodge the birds
     for i in range(300, 415):
         for j in range(410, 563):
