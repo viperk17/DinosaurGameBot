@@ -3,6 +3,7 @@ from PIL import Image, ImageGrab
 # from numpy import asarray
 import time
 
+
 def hit(key):
     pyautogui.keyDown(key)
     return
