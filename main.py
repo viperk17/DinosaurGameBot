@@ -28,6 +28,7 @@ def isCollide(data):
 if __name__ == "__main__":
     print("Hey... Dinosaur game is about to start in 3 seconds")
     time.sleep(2)
+    
     # hit('up') 
 
     while True:
